@@ -12,6 +12,9 @@
 		644B7B9B28DB584000890E83 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644B7B9A28DB584000890E83 /* MainTabBarViewController.swift */; };
 		644B7BA028DB584200890E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644B7B9F28DB584200890E83 /* Assets.xcassets */; };
 		644B7BA328DB584200890E83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644B7BA128DB584200890E83 /* LaunchScreen.storyboard */; };
+		6495B1FF28E1CA8900A5407D /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495B1FE28E1CA8900A5407D /* APICaller.swift */; };
+		6495B20128E1E03400A5407D /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495B20028E1E03400A5407D /* Title.swift */; };
+		6495B20328E1E38700A5407D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495B20228E1E38700A5407D /* Extensions.swift */; };
 		64C0BA1B28DC6EA100256536 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0BA1A28DC6EA100256536 /* HomeViewController.swift */; };
 		64C0BA1D28DC6EC900256536 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0BA1C28DC6EC900256536 /* UpcomingViewController.swift */; };
 		64C0BA1F28DC6F0A00256536 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0BA1E28DC6F0A00256536 /* SearchViewController.swift */; };
@@ -28,6 +31,9 @@
 		644B7B9F28DB584200890E83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		644B7BA228DB584200890E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		644B7BA428DB584200890E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6495B1FE28E1CA8900A5407D /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		6495B20028E1E03400A5407D /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		6495B20228E1E38700A5407D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		64C0BA1A28DC6EA100256536 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		64C0BA1C28DC6EC900256536 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		64C0BA1E28DC6F0A00256536 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +118,7 @@
 		64C0BA2428DC9B5500256536 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6495B20028E1E03400A5407D /* Title.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 		64C0BA2528DC9B7100256536 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6495B20228E1E38700A5407D /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 		64C0BA2628DC9B7F00256536 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				6495B1FE28E1CA8900A5407D /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -203,11 +212,14 @@
 				64C0BA1F28DC6F0A00256536 /* SearchViewController.swift in Sources */,
 				644B7B9B28DB584000890E83 /* MainTabBarViewController.swift in Sources */,
 				64C0BA2828DC9BBB00256536 /* CollectionViewTableViewCell.swift in Sources */,
+				6495B1FF28E1CA8900A5407D /* APICaller.swift in Sources */,
 				64C0BA2A28E0013100256536 /* HeroHeaderUIView.swift in Sources */,
 				64C0BA2128DC6F2800256536 /* DownloadsViewController.swift in Sources */,
 				644B7B9728DB584000890E83 /* AppDelegate.swift in Sources */,
+				6495B20328E1E38700A5407D /* Extensions.swift in Sources */,
 				644B7B9928DB584000890E83 /* SceneDelegate.swift in Sources */,
 				64C0BA1D28DC6EC900256536 /* UpcomingViewController.swift in Sources */,
+				6495B20128E1E03400A5407D /* Title.swift in Sources */,
 				64C0BA1B28DC6EA100256536 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
